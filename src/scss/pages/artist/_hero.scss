@@ -1,0 +1,30 @@
+.hero {
+    padding: 225px 0 224px;
+    background-image: url('../images/Morten-Harket.png');
+
+    &-title {
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    &-descr {
+        margin-bottom: 3rem;
+        color: #fff;
+    }
+
+    &-btn-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    &-btn {
+        width: 100%;
+        max-width: 200px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 20px 30px;
+        border: 1px solid transparent;
+    }
+}

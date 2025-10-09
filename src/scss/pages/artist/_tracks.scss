@@ -1,0 +1,48 @@
+
+.tracks-wrap {
+    display: grid;
+    gap: 25px 50px;
+}
+
+.popular-track {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.track-img {
+    display: block;
+    width: 55px;
+    height: 55px;
+}
+
+.track-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    width: 100%;
+}
+
+.track-name {
+    color: #fff;
+    font-size: 12.8px;
+    line-height: 19.2px;
+    text-transform: uppercase;
+}
+
+.track-author {
+    font-size: 12px;
+}
+
+.track-duration {
+    grid-column-start: 2;
+    grid-row: 1/-1;
+    justify-self: flex-end;
+}
+
+@media (min-width: 768px) {
+    .tracks-wrap {
+        grid-template-columns: 1fr 1fr;
+    }
+}

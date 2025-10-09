@@ -1,0 +1,10 @@
+.artist {
+    .section-title {
+        text-align: left;
+    }
+
+    @import './hero';
+    @import './tracks';
+    @import './discography';
+    @import './similar';
+}

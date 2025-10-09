@@ -1,0 +1,85 @@
+.pricing-title {
+    margin-bottom: 200px;
+}
+
+.pricing-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.pricing-title {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.pricing-item {
+    flex-basis: 374px;
+    padding: 1rem 1.5rem 4rem;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-free {
+    background-image: url(../images/subscribe_1.png);
+}
+
+.bg-standart {
+    background-image: url(../images/subscribe_2.png);
+}
+
+.bg-premium {
+    background-image: url(../images/subscribe_3.png);
+}
+
+.pricing-value {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1em;
+    color: #fff;
+    text-align: center;
+
+    sup {
+        font-size: 32px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+}
+
+.pricing-btn {
+    margin-bottom: 4rem;
+    display: block;
+    border: 1px solid #fff;
+    font-size: 1rem;
+}
+
+.pricing-footer {
+    max-width: 97.5%;
+    margin: 0 auto;
+    font-size: 12.7px;
+    color: #fff;
+    text-align: center;
+}
+
+.subscription-descr {
+    text-align: center;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .pricing-title {
+        font-size: 1.5rem;
+    }
+
+    .pricing-item {
+        flex-basis: 366px;
+        padding: 1.5rem 1.5rem 4rem;
+    }
+}
