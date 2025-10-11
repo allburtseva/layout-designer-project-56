@@ -556,7 +556,7 @@ img {
   }
 
   .app-text {
-    transform: translate(1px, -1px);
+    transform: translate(2px, 0);
     font-weight: 400;
   }
 
