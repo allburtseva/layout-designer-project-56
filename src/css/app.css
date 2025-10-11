@@ -333,9 +333,10 @@ img {
   margin-bottom: 40px;
   font-weight: 400;
   font-size: 4rem;
-  line-height: 100%;
+  line-height: 1em;
   color: #fff;
   text-align: center;
+  transform: translateY(-4px);
 }
 
 .pricing-value sup {
@@ -343,6 +344,8 @@ img {
   font-size: 32px;
   line-height: 150%;
   text-transform: uppercase;
+    transform: translateY(4px);
+
 }
 
 .pricing-btn {
@@ -361,8 +364,10 @@ img {
 }
 
 .subscription-descr {
+  padding-bottom: 2px;
   text-align: center;
   color: #fff;
+  letter-spacing: -0.044px;
 }
 
 @media (min-width: 768px) {
@@ -370,7 +375,7 @@ img {
     font-size: 1.5rem;
   }
   .pricing-item {
-    flex-basis: 366px;
+    flex-basis: 366.66px;
     padding: 1.5rem 1.5rem 4rem;
   }
 }
