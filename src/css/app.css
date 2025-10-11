@@ -398,6 +398,12 @@ img {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .subscription {
+    margin-bottom: 14px;
+  }
+}
+
 .subscription-descr {
   padding-bottom: 2px;
   text-align: center;
