@@ -547,7 +547,7 @@ img {
 
 @media (max-width: 768px) {
   .app h2 {
-    transform: translateX(1px);
+    transform: translateX(2px);
   }
 
   .app-img {
@@ -556,6 +556,9 @@ img {
 
   .app-btn {
     line-height: 19px;
+  }
+  .app-text {
+    font-weight: 500;
   }
 }
 
