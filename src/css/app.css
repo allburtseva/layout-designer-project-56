@@ -440,6 +440,12 @@ img {
   max-width: 100%;
 }
 
+.news-item:nth-child(2n) {
+  .news-body > p {
+    margin-bottom: 14px;
+  }
+}
+
 .news-body > p {
   margin-bottom: 1.5rem;
 }
