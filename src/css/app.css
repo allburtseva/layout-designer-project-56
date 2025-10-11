@@ -442,7 +442,7 @@ img {
 
 .news-item:nth-child(2n) {
   .news-body > p {
-    margin-bottom: 14px;
+    margin-bottom: 15px;
   }
 }
 
