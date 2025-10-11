@@ -254,6 +254,13 @@ img {
     max-width: 248px;
   }
 }
+
+@media (min-width: 768px) {
+  .main {
+    padding-bottom: 100px;
+  }
+}
+
 .hero {
   padding: 248px 0 200px;
   background-image: url('../images/banner.png');
