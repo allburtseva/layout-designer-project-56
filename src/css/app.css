@@ -652,13 +652,13 @@ img {
 }
 
 .footer .nav-top {
-  padding: 62px 0 72px;
+  padding: 62px 0 42px;
 }
 .footer .nav-top li:not(:last-child) {
   margin-bottom: 30px;
 }
 .footer .nav-bottom {
-  padding: 40px 0 47px;
+  padding: 40px 0 34px;
 }
 .footer .nav-bottom li:not(:last-child) {
   margin-bottom: 1rem;
