@@ -545,6 +545,7 @@ img {
   }
 }
 
+/* main-page fixes */
 @media (max-width: 768px) {
   .app h2 {
     transform: translateX(2px);
@@ -554,13 +555,16 @@ img {
     transform: translateY(-1px);
   }
 
+  .app-text {
+    transform: translate(-2px, -1px);
+  }
+
   .app-btn {
     line-height: 19px;
   }
-  .app-text {
-    font-weight: 500;
-  }
 }
+
+/* main-page fixes */
 
 .artist .section-title {
   text-align: left;
