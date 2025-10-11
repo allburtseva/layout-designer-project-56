@@ -296,7 +296,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  margin-bottom: 38px;
+  margin-bottom: 40px;
 }
 
 .pricing-title {
@@ -329,10 +329,11 @@ img {
 }
 
 .pricing-value {
+  max-height: 4rem;
   margin-bottom: 40px;
   font-weight: 400;
   font-size: 4rem;
-  line-height: 1em;
+  line-height: 100%;
   color: #fff;
   text-align: center;
 }
@@ -354,6 +355,7 @@ img {
 .pricing-footer {
   margin: 0 auto;
   font-size: 13px;
+  line-height: 19px;
   color: #fff;
   text-align: center;
 }
