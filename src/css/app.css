@@ -397,9 +397,9 @@ img {
 }
 
 /* @media (min-width: 768px) { */
-  .subscription {
-    margin-bottom: 14px;
-  }
+.subscription {
+  margin-bottom: 14px;
+}
 /* } */
 
 .subscription-descr {
@@ -694,8 +694,15 @@ img {
 }
 
 .footer .nav-top {
-  padding: 62px 0 42px;
+  padding: 62px 0 66px;
 }
+
+@media (min-width: 768px) {
+  .footer .nav-top {
+    padding: 62px 0 42px;
+  }
+}
+
 .footer .nav-top li:not(:last-child) {
   margin-bottom: 30px;
 }
