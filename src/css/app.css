@@ -407,6 +407,10 @@ img {
   }
 }
 
+.news {
+  padding-bottom: 1px;
+}
+
 .news h2 {
   transform: translateY(-2px);
 }
