@@ -50,10 +50,8 @@
     }
 }
 
-@media (min-width: 768px) {
-
+@media (width >= 768px) {
     .footer {
-
         [class^=".nav"] li {
             margin: 0;
         }
