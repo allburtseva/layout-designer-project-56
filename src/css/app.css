@@ -677,7 +677,7 @@ img {
   }
 }
 .artist .similar {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 .artist .similar-wrap {
   display: grid;
