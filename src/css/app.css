@@ -563,7 +563,6 @@ img {
     line-height: 19px;
   }
 }
-
 /* main-page fixes */
 
 .artist .section-title {
@@ -573,6 +572,13 @@ img {
   padding: 225px 0 224px;
   background-image: url('../images/Morten-Harket.png');
 }
+
+@media (min-width: 768px) {
+  .artist .hero {
+    padding: 240px 0 225px;
+  }
+}
+
 .artist .hero-title {
   margin-bottom: 1rem;
   text-align: left;
