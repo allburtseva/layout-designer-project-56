@@ -635,9 +635,13 @@ img {
   grid-column-start: 2;
   grid-row: 1/-1;
   justify-self: flex-end;
+
+  font-size: 12.8px;
 }
 @media (min-width: 768px) {
   .artist .tracks-wrap {
+    max-width: 96%;
+    padding-bottom: 1px;
     grid-template-columns: 1fr 1fr;
   }
 }
