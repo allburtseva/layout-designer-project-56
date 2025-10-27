@@ -630,14 +630,15 @@ img {
 }
 .artist .track-name {
   color: #fff;
+  font-family: 'Roboto', sans-serif;
   font-size: 12.8px;
   line-height: 19.2px;
-  /* font-weight: 700; */
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .artist .track-author {
-  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12.8px;
   font-weight: 400;
 }
 .artist .track-duration {
