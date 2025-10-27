@@ -632,10 +632,12 @@ img {
   color: #fff;
   font-size: 12.8px;
   line-height: 19.2px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .artist .track-author {
   font-size: 12px;
+  font-weight: 400;
 }
 .artist .track-duration {
   grid-column-start: 2;
