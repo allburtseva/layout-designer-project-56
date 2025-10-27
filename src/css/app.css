@@ -650,6 +650,13 @@ img {
   grid-template-columns: repeat(auto-fill, 137px);
   gap: 25px 50px;
 }
+
+@media (max-width: 768) {
+  .artist .discography {
+    padding-bottom: 1px;
+  }
+}
+
 .artist .discography-item img {
   display: block;
   width: 100%;
