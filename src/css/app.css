@@ -679,6 +679,13 @@ img {
 .artist .similar {
   margin-bottom: 100px;
 }
+
+@media (min-width: ) {
+  .artist .similar {
+    margin-bottom: 96px;
+  }
+}
+
 .artist .similar-wrap {
   display: grid;
   grid-template-columns: repeat(auto-fill, 137px);
