@@ -651,7 +651,7 @@ img {
   gap: 25px 50px;
 }
 
-@media (max-width: 768) {
+@media (min-width: 768) {
   .artist .discography {
     padding-bottom: 1px;
   }
