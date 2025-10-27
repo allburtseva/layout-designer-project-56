@@ -759,3 +759,9 @@ img {
     column-gap: 1rem;
   }
 }
+
+/* fixes */
+
+.footer .nav-list {
+  row-gap: 0;
+}
