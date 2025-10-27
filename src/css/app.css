@@ -565,6 +565,12 @@ img {
 }
 /* main-page fixes */
 
+@media (min-width: 768px) {
+  .artist .container {
+    padding-bottom: 1px;
+  }
+}
+
 .artist .section-title {
   text-align: left;
 }
@@ -641,7 +647,6 @@ img {
 @media (min-width: 768px) {
   .artist .tracks-wrap {
     max-width: 96%;
-    padding-bottom: 1px;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -649,12 +654,6 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fill, 137px);
   gap: 25px 50px;
-}
-
-@media (min-width: 768) {
-  .artist .discography {
-    padding-bottom: 1px;
-  }
 }
 
 .artist .discography-item img {
