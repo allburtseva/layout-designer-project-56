@@ -694,7 +694,7 @@ img {
 }
 
 .footer .nav-top {
-  padding: 62px 0 66px;
+  padding: 62px 0 68px;
 }
 
 @media (min-width: 768px) {
@@ -707,7 +707,7 @@ img {
   margin-bottom: 30px;
 }
 .footer .nav-bottom {
-  padding: 40px 0 33px;
+  padding: 40px 0 50px;
 }
 .footer .nav-bottom li:not(:last-child) {
   margin-bottom: 1rem;
